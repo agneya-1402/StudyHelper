@@ -4,7 +4,7 @@ import PyPDF2
 
 st.set_page_config(page_title="Study Helper - Atharva College", layout="centered")
 
-# --- Sidebar Instructions ---
+# Sidebar  
 st.sidebar.header("📘 Study Helper Instructions")
 st.sidebar.markdown(
     "1. Enter your Gemini API key. You can get one from [AI Studio API Key](https://aistudio.google.com/apikey).  "
