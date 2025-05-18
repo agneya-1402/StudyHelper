@@ -2,7 +2,7 @@ import streamlit as st
 from google import genai
 import PyPDF2
 
-st.set_page_config(page_title="Study Helper - Atharva College", layout="centered")
+st.set_page_config(page_title="Question Bank Generator - Mumbai University", layout="centered")
 
 # Sidebar  
 st.sidebar.header("📘 Study Helper Instructions")
