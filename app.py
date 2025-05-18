@@ -21,7 +21,7 @@ api_key = st.text_input("🔑 Your Gemini API Key", type="password")
 
 branch = st.selectbox(
     "📚 Branch", 
-    ["Computer", "IT", "EXTC", "Mechanical", "Civil", "Other"]
+    ["CMPN", "IT", "EXTC", "ECS", "Electrical", "Other"]
 )
 if branch == "Other":
     branch = st.text_input("📚 Enter Your Branch Name")
