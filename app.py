@@ -11,10 +11,11 @@ st.sidebar.markdown(
     "\n2. Select your branch, year, semester, subject, and modules.  \n"
     "3. (Optional) Upload your syllabus and past question papers in PDF.  \n"
     "4. Click **Generate Important Questions** to get 30 key questions.  \n"
+    "Made by Agneya Pathare. \n"
 )
 
 # Main Title 
-st.title("📘 Study Helper - Atharva College of Engineering")
+st.title("📘 Study Helper - Agneya Pathare")
 
 # Inputs 
 api_key = st.text_input("🔑 Your Gemini API Key", type="password")
